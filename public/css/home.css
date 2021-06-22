@@ -1,0 +1,507 @@
+/*GENERAL*/
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+ body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+ }
+
+ h3 {
+     font-size: 24px;
+     margin-top: 20px ;
+     margin-bottom: 20px;
+ }
+
+ p {
+     font-size: 12px;
+ }
+
+ h5 {
+     font-size: 18px;
+ }
+
+ main {
+         width: 90%;
+         margin: 0 auto;
+         
+ }
+/*HEADER*/
+
+header {
+
+    background-color: #EAC926;
+}
+
+.contenedor-logo{
+
+        flex-direction: row;
+        display:flex;
+        align-items: center;
+        flex-wrap: wrap;
+}
+.logo{
+        width: 45%;
+}
+
+.busqueda{
+        width: 45%;
+        margin: auto;
+        text-align: center;
+}
+
+header nav{
+        display: none;
+}
+.burger-menu {
+    text-align: center;
+    display: block;
+}
+
+.texto1{
+        margin-top: 20px;
+        margin: auto;
+        
+}
+ div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+ }
+
+
+
+/*MAIN*/
+
+.section1{
+        margin: auto;
+}
+
+.section1 h3{
+        text-align: center;
+}
+.section2{
+        margin: auto;
+}
+
+.section2 h3{
+        text-align: center;
+}
+
+
+
+
+
+ main article {
+        margin: auto;
+        text-align: left;
+        margin-bottom: 10px;
+        width: 300px;
+        
+        
+}
+
+
+
+.main-article {
+        display:flex;
+        
+        padding: 15px 15px 15px 15px;
+        background-color: white;
+        position: relative;
+        flex-wrap: wrap;
+        
+        
+
+}
+
+ main section article div i{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+        color: #39b54a;
+        transition: transform  1s;
+
+}
+
+
+
+.precios {
+            font-size: 18px;
+            flex-grow: 3;
+            
+}
+
+.descuentos {
+            font-size: 16px;
+            color: #39b54a;
+            flex-grow: 7;
+}
+
+.descripciones {
+                font-size: 16px;
+                margin-top: 10px;
+                display: none;
+                
+               
+}
+
+main section div.products article{
+        margin-bottom: 30px;
+}
+
+
+
+/*FOOTER*/
+
+
+footer{
+        margin-top: 20px;
+}
+
+footer article {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+}
+
+
+
+
+
+.tarjeta {
+        text-align: center;
+}
+
+div.tarjeta i{
+        background-color: #ebebeb;
+        border-radius: 5px;
+        color: #0044AA;
+        font-size: 2em;
+        height: 40px;
+        margin: 30px 0px 10px 0px;
+        padding: 10px;
+        width: 40px;
+}
+
+.regalo{
+    text-align: center;
+}
+
+div.regalo i{
+        background-color: #ebebeb;
+        border-radius: 5px;
+        color: #0044AA;
+        font-size: 2em;
+        height: 40px;
+        margin: 30px 0px 10px 0px;
+        padding: 10px;
+        width: 40px;
+}
+
+.seguridad {
+        text-align: center;
+}
+
+div.seguridad i{
+        background-color: #ebebeb;
+        border-radius: 5px;
+        color: #0044AA;
+        font-size: 2em;
+        height: 40px;
+        margin: 30px 0px 10px 0px;
+        padding: 10px;
+        width: 40px;
+}
+
+
+
+.copyright {
+
+        margin-top: 30px;
+        margin-bottom: 10px;
+}
+
+/*REGISTER*/
+.register{
+        text-align: center;
+
+}
+.register input{
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 200px;
+        
+}
+
+.register .perfil{
+
+        margin: auto;
+        text-align: center;
+        width: 300px;
+
+}
+
+.register .perfil input{
+
+        width: 40px;
+
+}
+.register .checkbox input{
+
+        width: 20px;
+        margin-top: 20px;
+        
+        
+}
+
+.checkbox{
+
+        margin: auto;
+        width: 40%;
+        text-align: center;
+}
+
+.register button{
+
+        width: 100px;
+        height: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: #39b54a;
+        border: black 1px solid;
+        border-radius: 5px;
+}
+
+.register button a{
+
+        text-decoration: none;
+        color: #000;
+}
+
+.register input .archivo{
+
+        width: 300px;
+}
+/*LOGIN*/
+
+.login{
+        text-align: center;
+}
+
+.login input{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 200px;
+}
+
+.login button{
+
+        width: 100px;
+        height: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-color: #39b54a;
+        border: black 1px solid;
+        border-radius: 5px;
+        transition-duration: 1s;
+}
+
+.login button:hover{
+
+        background-color: #0022AA;
+}
+
+.login button a{
+        text-decoration: none;
+        color: #000;
+}
+
+
+main form{
+        margin-top: 50px;
+}
+
+/*VIEWPORT*/
+
+/*tablets*/
+@media (min-width: 361px){
+
+       
+        main section  article:hover .descripciones{
+                display: block;
+                padding-right: 30px;
+        }
+        main article:hover{
+                box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+
+        main section article:hover div i {
+
+                transform: rotateZ(-90deg);
+        }
+        
+        
+        .precios {
+                font-size: 18px;
+                flex-grow: 3;
+                
+                 }
+    
+        .descuentos {
+                font-size: 16px;
+                color: #39b54a;
+                flex-grow:7;
+                 }
+
+        main section div.products{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: flex-start;
+        }
+        main section div.products article{
+                width: 44%;
+        }
+       
+
+        
+        
+
+}
+
+/*LOGIN*/
+.login input{
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 40%;
+        
+}
+/*REGISTER*/
+.register input{
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 40%;
+        
+}
+/*desktop*/
+@media (min-width: 769px){
+
+        main section div.products{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: flex-start;
+        }
+        main section div.products article{
+                width: 22%;
+        }
+
+
+
+        .burger-menu {
+                display: none;
+            }
+
+        .contenedor-logo{
+                display: inline-flex;
+                width: 100%;
+        }
+        .contenedor-logo img{
+                width: 30%;
+        }
+        .busqueda{
+                width: 30%;
+        }
+
+        .busqueda input{
+                width: 100%;
+        }
+        .busqueda button{
+                width: 22px;
+                height: 22px;
+                margin-top: 10px;
+        }
+
+
+        .texto1{
+                margin: 0;
+                width: 30%;
+                font-size: 15px;
+        }
+        
+        header nav{
+                display: flex;
+                padding-top: 40px;
+                padding-bottom: 20px;
+        }
+        .nav1{
+                flex-direction: row;
+                display: flex;
+                width: 50%;
+                justify-content: space-between;
+                list-style: none;
+                margin-right: 20px;
+                
+        }
+        .nav2{
+                flex-direction: row;
+                display: flex;
+                width: 50%;
+                justify-content: space-between;
+                list-style: none;
+                margin-left: 20px;
+
+        }
+        .nav1 li a{
+                text-decoration: none;
+                color: #000;
+
+        }
+        .nav2 li a{
+                text-decoration: none;
+                color: #000;
+
+        }
+
+        footer .avisos-logos{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 30px;
+
+
+        }
+
+        footer .avisos-logos article i{
+
+                transition: 1s;
+        }
+        
+        footer .avisos-logos article i:hover{
+                
+                color:#EAC926;
+        }
+}
+
